@@ -1,0 +1,89 @@
+.card-container {
+	width: 300px;
+	height: 430px;
+	background: #FFF;
+	border-radius: 6px;
+	position: absolute;
+	box-shadow: 0px 1px 10px 1px #000;
+	overflow: hidden;
+	display: inline-block;
+	margin: 80px;
+}
+
+.upper-container {
+	height: 150px;
+	background: #2379ff;
+}
+
+.image-container {
+	width: 80px;
+	height: 80px;
+	padding: 7px;
+	transform: translate(100px, 100px);
+}
+
+.image-container img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.lower-container {
+	height: 280px;
+	background: #FFF;
+	padding: 20px;
+	padding-top: 40px;
+	text-align: center;
+}
+
+.lower-container .btn {
+	padding: 12px 20px;
+	background: #2379FF;
+	border: none;
+	color: white;
+	border-radius: 30px;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all .3s ease-in;
+}
+
+.lower-container .btn:hover {
+	background: transparent;
+	color: #7F00FF;
+	border: 2px solid #7F00FF;
+}
+
+.styled-table {
+    border-collapse: collapse;
+	margin-left: 450px;
+	margin-right: 50px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}

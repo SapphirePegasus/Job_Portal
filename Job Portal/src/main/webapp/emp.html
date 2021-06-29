@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<link rel="stylesheet" href="css/jobseekstyle.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="background: white;">
+	<!--Navigation bar-->
+	<div id="nav-placeholder"></div>
+	<script>
+		$(function(){
+  		$("#nav-placeholder").load("navbar.html");
+		});
+	</script>
+	<!--end of Navigation bar-->
+
+	<div class="text">Companies And Employers Area</div>
+
+	<!-- Form -->
+	<div class="wrapper">
+		<div class="title">Login Form</div>
+		<form method="post" action="companylogincheck" class="login">
+			<div class="field">
+				<input type="text" name="compemail" required> <label>Email Address</label>
+			</div>
+			<div class="field">
+				<input type="password" name="comppass" required> <label>Password</label>
+			</div>
+			<div class="content">
+				<div class="pass-link">
+					<a href="#">Forgot password?</a>
+				</div>
+			</div>
+			<div class="field">
+				<input type="submit" value="Login">
+			</div>
+			<div class="signup-link">
+				Not a member? <a href="empsignup.jsp">SignUp now</a>
+			</div>
+		</form>
+	</div>
+	<!-- Form end -->
+
+</body>
+</html>
