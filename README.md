@@ -1,5 +1,5 @@
 # Job_Portal
-Online Job Portal prototype made using html, css, jsp, servlet along with oracle 11g xe database.
+Online Job Portal prototype made using HTML, CSS, JSP, Servlet along with oracle 11g XE database.
 
 
 Online Job Portal Prototype
